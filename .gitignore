@@ -1,0 +1,8 @@
+config.js
+data.json
+*.env
+
+# Fichiers système et de développement
+.DS_Store
+Thumbs.db
+*.log

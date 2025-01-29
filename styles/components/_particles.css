@@ -1,0 +1,19 @@
+.particle {
+    position: absolute;
+    background: var(--accent-color);
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 6px var(--accent-color);
+}
+
+.particle:nth-child(3n) {
+    animation: particleFloat1 2s infinite;
+}
+
+.particle:nth-child(3n+1) {
+    animation: particleFloat2 2.2s infinite;
+}
+
+.particle:nth-child(3n+2) {
+    animation: particleFloat3 1.8s infinite;
+}
