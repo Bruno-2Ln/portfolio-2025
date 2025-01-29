@@ -7,3 +7,9 @@ data.json
 Thumbs.db
 *.log
 .idea/
+
+assets/images/*.png
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.gif
+assets/images/*.svg
