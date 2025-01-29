@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const DEFAULT_PROFILE_PHOTO = 'assets/images/hero2.jpg';
 
     // Charger les données depuis le fichier JSON
-    fetch('/data.json')
+    fetch('data.json')
         .then(response => response.json())
         .then(data => {
             console.log(data);
