@@ -63,7 +63,7 @@
     },
     {
       "title": "Quiz Challenge",
-      "description": "Développement d'un jeu mobile divertissant au concept suivant : les joueurs doivent répondre à des questions en décalé, où les choix de réponses correspondent en réalité à la question précédente. Cette mécanique originale teste la mémoire des joueurs. L'application se distingue par son design coloré et son interface ludique.",
+      "description": "Développement d'un jeu mobile au concept suivant : les joueurs doivent répondre à des questions en décalé, où les choix de réponses correspondent en réalité à la question précédente. Cette mécanique originale teste la mémoire des joueurs. L'application se distingue par son design coloré et son interface ludique.",
       "technologies": ["Ionic"],
       "image": "assets/images/qc.png"
     }
