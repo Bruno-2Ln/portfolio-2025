@@ -1,0 +1,23 @@
+.recaptcha-notice {
+    display: block;
+    color: var(--text-gray);
+    font-size: 0.75rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recaptcha-notice a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.recaptcha-notice a:hover {
+    opacity: 0.8;
+}
+
+/* Cache le badge reCAPTCHA par défaut */
+.grecaptcha-badge {
+    visibility: hidden;
+    opacity: 0;
+}
