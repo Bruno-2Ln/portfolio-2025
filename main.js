@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+    const contactForm = document.getElementById('contact-form');
+    const modal = document.getElementById('contact-modal');
+    const ctaButton = document.querySelector('.cta-button');
+    const closeModal = document.querySelector('.close-modal');
+    const modalTrigger = document.getElementById('modal-trigger');
 
     // Définir des images par défaut
     const DEFAULT_PROFILE_PHOTO = 'assets/images/hero2.jpg';
