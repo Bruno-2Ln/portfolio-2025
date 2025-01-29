@@ -1,5 +1,4 @@
 config.js
-data.json
 *.env
 
 # Fichiers système et de développement

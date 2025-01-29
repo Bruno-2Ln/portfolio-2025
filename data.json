@@ -1,0 +1,71 @@
+{
+  "personal": {
+    "name": "Bruno Delaine",
+    "title": "Développeur front-end",
+    "description": "Développeur front-end dynamique, je cultive ma passion pour les nouvelles technologies web afin de créer des interfaces modernes et évolutives.",
+    "bio": "Passionné par le développement front-end depuis 2020, mon parcours est né d'une réflexion simple : comment transformer un métier en véritable passion ? Cela m'a conduit à obtenir mon diplôme de développeur web et web mobile en 2020. Mes passions artistiques, notamment en dessin, m'ont naturellement connectées au développement web. J'y retrouve les mêmes satisfactions créatives : un mélange d'esthétique et de technique, de défis et de solutions diverses. Chaque bug résolu, chaque projet abouti renforce cette satisfaction. Ce qui me caractérise ? Une soif d'apprentissage constante et un enthousiasme qui ne se limite pas au travail.",
+    "photo": "assets/images/hero2.jpg",
+    "photo_mail": "assets/images/mail-ios.svg",
+    "photo_lkd": "assets/images/linkedin.svg",
+    "photo_gitlab": "assets/images/gitlab.svg",
+    "photo_github": "assets/images/github.svg",
+    "contact": {
+      "email": "bruno-d-34@hotmail.fr",
+      "linkedin": "https://www.linkedin.com/in/bruno-delaine-4126131ab",
+      "gitlab": "https://gitlab.com/Bruno-2Ln",
+      "github": "https://github.com/"
+    }
+  },
+  "experiences": [
+    {
+      "title": "Développeur Front-end",
+      "company": "Happy Monkey",
+      "period": "2021 - Présent",
+      "description": "Spécialisé dans le développement d'applications web et mobiles avec Angular et Ionic. Réalisations principales : développement d'une plateforme immobilière (Veliko), création de back-offices sur mesure, et conception d'applications mobiles incluant des jeux. Expertise technique : Angular, Ionic, TypeScript, et introduction à AdonisJS pour des fonctionnalités back-end spécifiques."
+    },
+    {
+      "title": "Développeur Full-stack",
+      "company": "Agence Willgo",
+      "period": "2020",
+      "description": "Stage de fin d'études d'une durée de 3 mois axé sur le développement web full-stack. Réalisation d'un projet d'examen complet en JavaScript et PHP. Contribution active au développement et à la maintenance de sites WordPress. Acquisition d'une expérience pratique dans la gestion de projets web de A à Z."
+    },
+    {
+      "title": "Formation Développeur Web & Mobile",
+      "company": "Titre RNCP Niveau 5 (Bac+2)",
+      "period": "2020 - 2021",
+      "description": "Formation intensive aux technologies du développement web et mobile. Maîtrise des frameworks modernes : Angular pour le front-end, Symfony pour le back-end. Application des méthodologies Agiles dans des projets concrets. Acquisition des fondamentaux du développement : JavaScript, PHP, HTML/CSS, et gestion de bases de données."
+    }
+  ],
+  "projects": [
+    {
+      "title": "WP-Content",
+      "description": "Développement d'une plateforme moderne en Angular 18 facilitant le déploiement et la gestion de plugins WordPress. Basée sur Angular 18 et intégrant Stripe pour la gestion des paiements, cette solution optimise le workflow des développeurs WordPress. Le projet inclut une gestion avancée des hooks WordPress et propose une approche moderne pour le développement de plugins réutilisables.",
+      "technologies": ["Angular", "Stripe"],
+      "image": "assets/images/wp-content.png"
+    },
+    {
+      "title": "Edimark",
+      "description": "Développement d'un back-office complet pour Edimark, groupe majeur de l'édition médicale gérant 26 revues spécialisées, permettant la gestion des abonnements et des contenus des revues médicales. Réalisations clés : gestion fine des droits d'accès aux revues, interface administrative intuitive, système de publication et d'archivage des articles médicaux.",
+      "technologies": ["Angular", "Ionic"],
+      "image": "assets/images/edimark.png"
+    },
+    {
+      "title": "Veliko",
+      "description": "Création d'une application mobile et d'un site web pour les professionnels de l'immobilier. Veliko.io simplifie les transactions immobilières grâce à un rapprochement inter-agences automatisé, permettant un accès instantané aux acheteurs et biens qualifiés. La plateforme, exclusivement réservée aux professionnels, assure un environnement sécurisé, fiable et 100% efficace pour les transactions immobilières.",
+      "technologies": ["Angular", "ionic"],
+      "image": "assets/images/veliko.png"
+    },
+    {
+      "title": "Link",
+      "description": "Développement d'une plateforme innovante de formation en temps réel basée sur les websockets. Link permet aux formateurs de créer et animer des séances de formation interactives grâce à divers modules pédagogiques : placement sur image, sprint-quiz, nuage de mots, etc. La plateforme facilite l'interaction directe entre formateur et apprenants pendant les sessions de groupe, tout en collectant et analysant les données de participation. Le formateur peut suivre la progression, générer des rapports statistiques et conserver l'historique des formations.",
+      "technologies": ["Angular"],
+      "image": "assets/images/link.png"
+    },
+    {
+      "title": "Quiz Challenge",
+      "description": "Développement d'un jeu mobile divertissant au concept suivant : les joueurs doivent répondre à des questions en décalé, où les choix de réponses correspondent en réalité à la question précédente. Cette mécanique originale teste la mémoire des joueurs. L'application se distingue par son design coloré et son interface ludique.",
+      "technologies": ["Angular"],
+      "image": "assets/images/qc.png"
+    }
+  ]
+}
