@@ -10,7 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Charger les données depuis le fichier JSON
     fetch('data.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             console.log(data);
             // Informations personnelles
