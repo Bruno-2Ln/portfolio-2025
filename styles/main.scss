@@ -1,0 +1,150 @@
+@use 'base/variables';
+@use 'base/reset';
+@use 'base/animations';
+@use 'base/typography';
+
+@use 'components/buttons';
+@use 'components/modal';
+@use 'components/forms';
+@use 'components/particles';
+@use 'components/recaptcha';
+@use 'components/social';
+@use 'components/contact';
+
+@use 'layout/footer';
+@use 'layout/grid';
+
+@use 'sections/hero';
+@use 'sections/about';
+@use 'sections/projects';
+@use 'sections/experience';
+
+
+
+/* Curseur d'animation */
+
+
+/* Responsive */
+/*@media (max-width: 768px) {*/
+/*    .hero, .projects, .experience {*/
+/*        padding: 50px 20px;*/
+/*    }*/
+
+/*    .projects-grid {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+
+/*    .hero-content {*/
+/*        flex-direction: column;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .hero-photo {*/
+/*        margin-bottom: 30px;*/
+/*        width: 250px;*/
+/*        height: 250px;*/
+/*    }*/
+
+/*    .contact-links {*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/
+
+
+/*.contact-options {*/
+/*    display: grid;*/
+/*    gap: 20px;*/
+/*}*/
+
+/*.contact-option {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 15px;*/
+/*    padding: 20px;*/
+/*    background: rgba(233, 69, 96, 0.1);*/
+/*    border: 1px solid rgba(233, 69, 96, 0.2);*/
+/*    border-radius: 12px;*/
+/*    text-decoration: none;*/
+/*    color: var(--text-light);*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.contact-option:hover {*/
+/*    background: rgba(233, 69, 96, 0.2);*/
+/*    transform: translateX(5px);*/
+/*}*/
+
+/*.contact-option img {*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    object-fit: contain;*/
+/*    opacity: 0.8;*/
+/*}*/
+
+/*.contact-option span {*/
+/*    font-weight: 500;*/
+/*}*/
+
+
+/* Liens sociaux en bas de la modal */
+/*.social-links {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    gap: 20px;*/
+/*    margin-top: 30px;*/
+/*    padding-top: 20px;*/
+/*    border-top: 1px solid rgba(233, 69, 96, 0.2);*/
+/*}*/
+
+/*.social-link {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border-radius: 50%;*/
+/*    background: rgba(255, 255, 255, 0.05);*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.social-link:hover {*/
+/*    transform: translateY(-3px);*/
+/*    background: rgba(233, 69, 96, 0.1);*/
+/*}*/
+
+/*.social-link img {*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    opacity: 0.8;*/
+/*    transition: opacity 0.3s ease;*/
+/*}*/
+
+/*.social-link:hover img {*/
+/*    opacity: 1;*/
+/*}*/
+
+
+/*.recaptcha-notice {*/
+/*    display: block;*/
+/*    color: var(--text-gray);*/
+/*    font-size: 0.75rem;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.recaptcha-notice a {*/
+/*    color: var(--accent-color);*/
+/*    text-decoration: none;*/
+/*    transition: opacity 0.3s ease;*/
+/*}*/
+
+/*.recaptcha-notice a:hover {*/
+/*    opacity: 0.8;*/
+/*}*/
+
+/*!* Cache le badge reCAPTCHA par défaut *!*/
+/*.grecaptcha-badge {*/
+/*    visibility: hidden;*/
+/*    opacity: 0;*/
+/*}*/
+
