@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            console.log(data);
             // Informations personnelles
             document.getElementById('name').textContent = data.personal.name;
 
