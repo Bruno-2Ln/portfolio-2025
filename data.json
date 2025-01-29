@@ -52,7 +52,7 @@
     {
       "title": "Veliko",
       "description": "Création d'une application mobile et d'un site web pour les professionnels de l'immobilier. Veliko.io simplifie les transactions immobilières grâce à un rapprochement inter-agences automatisé, permettant un accès instantané aux acheteurs et biens qualifiés. La plateforme, exclusivement réservée aux professionnels, assure un environnement sécurisé, fiable et 100% efficace pour les transactions immobilières.",
-      "technologies": ["Angular", "ionic"],
+      "technologies": ["Angular", "Ionic"],
       "image": "assets/images/veliko.png"
     },
     {
@@ -64,7 +64,7 @@
     {
       "title": "Quiz Challenge",
       "description": "Développement d'un jeu mobile divertissant au concept suivant : les joueurs doivent répondre à des questions en décalé, où les choix de réponses correspondent en réalité à la question précédente. Cette mécanique originale teste la mémoire des joueurs. L'application se distingue par son design coloré et son interface ludique.",
-      "technologies": ["Angular"],
+      "technologies": ["Ionic"],
       "image": "assets/images/qc.png"
     }
   ]
