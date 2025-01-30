@@ -1,14 +1,13 @@
 {
-  "name": "portfolio-2025",
+  "name": "portfolio-db",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
     "sass": "sass --watch styles/main.scss:styles/main.css",
     "build": "sass styles/main.scss:styles/main.css --style compressed"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bruno Delaine",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.83.4"
