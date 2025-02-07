@@ -13,6 +13,11 @@
     backdrop-filter: blur(5px);
 }
 
+.cta-buttons-container {
+    display: flex;
+    gap: 20px;
+}
+
 .cta-button::before {
     content: '';
     position: absolute;

@@ -38,10 +38,17 @@
       <h1 id="name"></h1>
       <h2><span id="typed-output"></span></h2>
       <p id="hero-description" class="hero-description"></p>
-      <div id="contact-links" class="contact-links"></div>
-      <a href="#contact" class="cta-button">Me contacter&nbsp;&nbsp;→</a>
+
+      <div class="cta-buttons-container">
+        <a href="#contact" class="cta-button">Me contacter&nbsp;&nbsp;→</a>
+        <a href="#cv" id="cv-trigger" class="cta-button">Télécharger CV&nbsp;&nbsp;→</a>
+      </div>
+
     </div>
-    <img id="hero-photo" src="" alt="ma photo" class="hero-photo">
+    <div class="hero-img-contacts-container">
+      <img id="hero-photo" src="" alt="ma photo" class="hero-photo">
+      <div id="contact-links" class="contact-links"></div>
+    </div>
   </div>
 </section>
 
@@ -116,6 +123,37 @@
     </small>
   </div>
 </div>
+
+<div id="cv-modal" class="modal">
+  <div class="cv-modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>Télécharger mon CV</h2>
+    <div class="cv-preview-container">
+      <div class="cv-preview">
+        <h3>Version numérique</h3>
+        <p>CV complet avec liens cliquables</p>
+        <!-- Remplacer l'image par un aperçu dynamique -->
+        <div class="cv-thumbnail" data-pdf="assets/cv/cv.pdf">
+          <img src="assets/cv/cv-bruno-delaine-preview.png" alt="Aperçu du cv téléchargeable" width="100%" height="100%">
+        </div>
+        <a href="assets/cv/cv-bruno-delaine.pdf" download class="download-button">
+          Télécharger
+        </a>
+      </div>
+      <div class="cv-preview">
+        <h3>Version imprimable</h3>
+        <p>CV optimisé pour l'impression</p>
+        <div class="cv-thumbnail" data-pdf="assets/cv/cv_light.pdf">
+          <img src="assets/cv/cv-bruno-delaine-printable-preview.png" alt="Aperçu du cv imprimable" width="100%" height="100%">
+        </div>
+        <a href="assets/cv/cv-bruno-delaine-printable.pdf" download class="download-button">
+          Télécharger
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script type="module" src="js/main.js"></script>

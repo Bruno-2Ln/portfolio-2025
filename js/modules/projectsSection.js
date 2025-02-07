@@ -22,7 +22,7 @@ function createProjectCard(project) {
                 </div>
                 <div class="project-front-content">
                     <h3 class="project-title">${project.title}</h3>
-                    <div class="project-preview">Cliquez pour plus de détails →</div>
+                    <div class="project-preview">Cliquer pour plus de détails →</div>
                 </div>
             </div>
             <div class="project-back">
